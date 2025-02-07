@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HollandQuiz"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Guide Activity -->
+        <activity
+            android:name=".activities.GuideActivity"
+            android:exported="true" />
+
+        <!-- Quiz Activity -->
+        <activity
+            android:name=".activities.QuizActivity"
+            android:exported="true" />
+
+        <!-- Result Activity -->
+        <activity
+            android:name=".activities.ResultActivity"
+            android:exported="true" />
+        <!-- Stats Activity -->
+        <activity
+            android:name=".activities.StatsActivity"
+            android:exported="true"/>
+
+        <!-- Details Activity -->
+        <activity
+            android:name=".activities.DetailsActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".activities.LibraryActivity"
+            android:exported="true"
+            android:label="Thư viện nghề nghiệp"
+            android:theme="@style/Theme.HollandQuiz" />
+        <activity
+            android:name=".activities.CareerDetailsActivity"
+            android:exported="true"
+            android:label="Chi tiết nghề nghiệp"
+            android:theme="@style/Theme.HollandQuiz" />
+
+    </application>
+
+</manifest>

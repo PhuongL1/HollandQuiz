@@ -1,0 +1,83 @@
+<!-- File: res/layout/activity_resuilt.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Nút Thoát -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_alignParentStart="true"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background" />
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả của bạn"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/btnExit"
+        android:textColor="#333333" />
+
+    <!-- Nội dung kết quả -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Thông tin chi tiết -->
+            <TextView
+                android:id="@+id/tvGroupDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mô tả nhóm nghề nghiệp sẽ hiển thị tại đây."
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:background="#FFFFFF"
+                android:elevation="2dp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="#666666" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Nút Xem Chi Tiết -->
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Chi Tiết"
+        android:layout_below="@id/scrollView"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+    <!-- Nút Xem Thống Kê -->
+    <Button
+        android:id="@+id/btnStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Thống Kê"
+        android:layout_below="@id/btnDetails"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <!-- Tiêu đề ứng dụng -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Holland Quiz"
+        android:textColor="#FF9903"
+        android:textSize="48sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="italic"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+
+    <!-- Container chứa các nút -->
+    <LinearLayout
+        android:id="@+id/buttonsContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Nút Bắt đầu -->
+        <Button
+            android:id="@+id/btnStartQuiz"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button_background"
+            android:text="Bắt đầu"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular" />
+
+        <!-- Nút Hướng dẫn -->
+        <Button
+            android:id="@+id/btnGuide"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button_background"
+            android:text="Hướng dẫn"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular" />
+
+        <!-- Nút Thư viện nghề nghiệp -->
+        <Button
+            android:id="@+id/btnCareers"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button_background"
+            android:text="Thư viện nghề nghiệp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular" />
+
+        <!-- Nút Thoát -->
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button_background"
+            android:text="Thoát"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular" />
+    </LinearLayout>
+</RelativeLayout>

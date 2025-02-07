@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <!-- Tên nhóm -->
+    <TextView
+        android:id="@+id/tvGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên nhóm"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="#333333" />
+
+    <!-- Mô tả nhóm -->
+    <TextView
+        android:id="@+id/tvGroupDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGroupName"
+        android:layout_marginTop="8dp"
+        android:text="Mô tả nhóm nghề nghiệp"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:elevation="2dp"
+        android:textColor="#666666" />
+
+    <!-- Danh sách nghề nghiệp -->
+    <TextView
+        android:id="@+id/tvCareers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGroupDescription"
+        android:layout_marginTop="16dp"
+        android:text="Danh sách nghề nghiệp sẽ hiển thị tại đây."
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:elevation="2dp"
+        android:textColor="#333333" />
+
+    <!-- Nút Quay lại -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCareers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Quay lại"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

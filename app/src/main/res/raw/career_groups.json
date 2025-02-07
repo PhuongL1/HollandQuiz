@@ -1,0 +1,82 @@
+[
+  {
+    "group": "Realistic",
+    "description": "Nhóm Realistic (Thực tế) thường dành cho những người yêu thích các hoạt động thực hành, làm việc với máy móc, công cụ, hoặc các hoạt động ngoài trời. Họ thường thích làm việc với tay chân và không quá thiên về giao tiếp.",
+    "careers": [
+      "Kỹ sư cơ khí",
+      "Kỹ sư điện",
+      "Thợ hàn",
+      "Thợ sửa ô tô",
+      "Kỹ thuật viên vận hành máy móc",
+      "Thợ mộc",
+      "Công nhân xây dựng",
+      "Kiến trúc sư cảnh quan",
+      "Quản lý công trình",
+      "Nông dân",
+      "Thợ sửa điện",
+      "Hướng dẫn viên leo núi"
+    ]
+  },
+  {
+    "group": "Investigative",
+    "description": "Nhóm Investigative thường dành cho những người yêu thích nghiên cứu, phân tích, và giải quyết các vấn đề khoa học.",
+    "careers": [
+      "Nhà khoa học nghiên cứu",
+      "Kỹ sư phần mềm",
+      "Nhà tâm lý học",
+      "Chuyên viên phân tích dữ liệu",
+      "Dược sĩ",
+      "Nhà toán học",
+      "Nhà thống kê học"
+    ]
+  },
+  {
+    "group": "Artistic",
+    "description": "Nhóm Artistic (Nghệ thuật) dành cho những người sáng tạo, thích thể hiện bản thân qua nghệ thuật và tránh các công việc lặp đi lặp lại.",
+    "careers": [
+      "Diễn viên",
+      "Ca sĩ",
+      "Họa sĩ",
+      "Nhà thiết kế đồ họa",
+      "Nhà văn",
+      "Nhà báo",
+      "Nhà sản xuất âm nhạc"
+    ]
+  },
+  {
+    "group": "Social",
+    "description": "Nhóm Social (Xã hội) tập trung vào các nghề nghiệp liên quan đến giúp đỡ, dạy dỗ, và hỗ trợ người khác.",
+    "careers": [
+      "Giáo viên",
+      "Bác sĩ tâm lý",
+      "Nhân viên công tác xã hội",
+      "Y tá hoặc điều dưỡng",
+      "Hướng dẫn viên du lịch",
+      "Chuyên viên phát triển con người"
+    ]
+  },
+  {
+    "group": "Enterprising",
+    "description": "Nhóm Enterprising (Thuyết phục) dành cho những người thích lãnh đạo, thuyết phục, và gây ảnh hưởng đến người khác.",
+    "careers": [
+      "Doanh nhân",
+      "Quản lý kinh doanh",
+      "Nhà môi giới chứng khoán",
+      "Luật sư",
+      "Chuyên gia quảng cáo",
+      "Quản lý tiếp thị"
+    ]
+  },
+  {
+    "group": "Conventional",
+    "description": "Nhóm Conventional (Quy chuẩn) tập trung vào những người thích làm việc với dữ liệu, thông tin, các quy trình rõ ràng và có cấu trúc.",
+    "careers": [
+      "Kế toán viên",
+      "Nhân viên ngân hàng",
+      "Chuyên viên quản lý hồ sơ",
+      "Nhà phân tích dữ liệu",
+      "Nhân viên hành chính",
+      "Quản trị viên hệ thống"
+    ]
+  }
+]

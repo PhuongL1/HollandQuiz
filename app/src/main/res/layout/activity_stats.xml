@@ -1,0 +1,52 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#F5F5F5">
+
+    <!-- Biểu đồ -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Chú thích nhóm -->
+    <GridLayout
+        android:id="@+id/legendContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barChart"
+        android:layout_marginTop="16dp"
+        android:rowCount="2"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:padding="2dp" />
+
+    <!-- Thống kê -->
+    <TextView
+        android:id="@+id/tvStatsSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/legendContainer"
+        android:layout_marginTop="16dp"
+        android:text="Thông tin thống kê sẽ hiển thị tại đây."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:textColor="#666666" />
+
+    <!-- Nút Quay lại -->
+    <Button
+        android:id="@+id/btnBackToResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:layout_below="@id/tvStatsSummary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

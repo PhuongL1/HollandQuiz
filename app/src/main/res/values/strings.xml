@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Holland Quiz</string>
+    <string name="guide_activity_title">Hướng dẫn</string>
+    <string name="quiz_activity_title">Bài kiểm tra</string>
+    <string name="result_activity_title">Kết quả</string>
+    <string name="details_activity_title">Chi tiết</string>
+    <string name="stats_activity_title">Thống kê</string>
+</resources>

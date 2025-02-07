@@ -1,0 +1,218 @@
+[
+  {
+    "group": "Realistic",
+    "color": "#E57373",
+    "careers": [
+      {
+        "name": "Kỹ sư cơ khí",
+        "skills": "Kỹ thuật, Giải quyết vấn đề, Tư duy sáng tạo",
+        "salary": "15-25 triệu VNĐ/tháng",
+        "growth": "Cao trong lĩnh vực công nghiệp và sản xuất"
+      },
+      {
+        "name": "Thợ sửa ô tô",
+        "skills": "Kỹ năng sửa chữa, Kiến thức cơ khí",
+        "salary": "8-15 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      },
+      {
+        "name": "Thợ mộc",
+        "skills": "Làm việc với gỗ, Sáng tạo, Tỉ mỉ",
+        "salary": "7-12 triệu VNĐ/tháng",
+        "growth": "Ổn định với xu hướng tăng"
+      },
+      {
+        "name": "Kỹ sư xây dựng",
+        "skills": "Kỹ thuật, Tổ chức, Quản lý dự án",
+        "salary": "20-35 triệu VNĐ/tháng",
+        "growth": "Cao trong phát triển hạ tầng"
+      },
+      {
+        "name": "Nông dân",
+        "skills": "Làm việc ngoài trời, Kiến thức trồng trọt",
+        "salary": "6-10 triệu VNĐ/tháng",
+        "growth": "Phụ thuộc vào mùa vụ và thị trường"
+      }
+    ]
+  },
+  {
+    "group": "Investigative",
+    "color": "#64B5F6",
+    "careers": [
+      {
+        "name": "Nhà khoa học",
+        "skills": "Nghiên cứu, Phân tích dữ liệu, Tư duy phản biện",
+        "salary": "20-30 triệu VNĐ/tháng",
+        "growth": "Cao trong lĩnh vực AI và công nghệ sinh học"
+      },
+      {
+        "name": "Kỹ sư phần mềm",
+        "skills": "Lập trình, Giải quyết vấn đề, Phân tích hệ thống",
+        "salary": "25-40 triệu VNĐ/tháng",
+        "growth": "Rất cao với xu hướng chuyển đổi số"
+      },
+      {
+        "name": "Nhà tâm lý học",
+        "skills": "Giao tiếp, Lắng nghe, Phân tích hành vi",
+        "salary": "15-25 triệu VNĐ/tháng",
+        "growth": "Ổn định với nhu cầu gia tăng"
+      },
+      {
+        "name": "Dược sĩ",
+        "skills": "Kiến thức y khoa, Tư duy chi tiết",
+        "salary": "10-20 triệu VNĐ/tháng",
+        "growth": "Ổn định với xu hướng tăng"
+      },
+      {
+        "name": "Nhà thống kê học",
+        "skills": "Phân tích dữ liệu, Tư duy logic, Kiến thức toán học",
+        "salary": "20-35 triệu VNĐ/tháng",
+        "growth": "Cao trong các ngành tài chính và công nghệ"
+      }
+    ]
+  },
+  {
+    "group": "Artistic",
+    "color": "#81C784",
+    "careers": [
+      {
+        "name": "Họa sĩ",
+        "skills": "Vẽ tay, Sáng tạo, Kiên nhẫn",
+        "salary": "10-20 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      },
+      {
+        "name": "Nhà thiết kế đồ họa",
+        "skills": "Photoshop, Illustrator, Tư duy thẩm mỹ",
+        "salary": "12-25 triệu VNĐ/tháng",
+        "growth": "Cao với nhu cầu thương hiệu và quảng cáo"
+      },
+      {
+        "name": "Nhà văn",
+        "skills": "Sáng tạo, Khả năng viết lách, Tư duy nội dung",
+        "salary": "10-20 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      },
+      {
+        "name": "Nhạc sĩ",
+        "skills": "Sáng tác, Hiểu biết về âm nhạc, Sáng tạo",
+        "salary": "10-30 triệu VNĐ/tháng",
+        "growth": "Phụ thuộc vào thị trường giải trí"
+      },
+      {
+        "name": "Diễn viên",
+        "skills": "Diễn xuất, Biểu cảm, Tư duy sáng tạo",
+        "salary": "15-50 triệu VNĐ/tháng",
+        "growth": "Cao trong lĩnh vực truyền hình và điện ảnh"
+      }
+    ]
+  },
+  {
+    "group": "Social",
+    "color": "#FFD54F",
+    "careers": [
+      {
+        "name": "Giáo viên",
+        "skills": "Kỹ năng giảng dạy, Giao tiếp, Quản lý lớp học",
+        "salary": "10-20 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      },
+      {
+        "name": "Nhân viên công tác xã hội",
+        "skills": "Lắng nghe, Giao tiếp, Thấu hiểu tâm lý",
+        "salary": "8-15 triệu VNĐ/tháng",
+        "growth": "Phụ thuộc vào nhu cầu xã hội"
+      },
+      {
+        "name": "Bác sĩ tâm lý",
+        "skills": "Phân tích tâm lý, Lắng nghe, Tư duy phản biện",
+        "salary": "20-30 triệu VNĐ/tháng",
+        "growth": "Cao trong bối cảnh áp lực cuộc sống gia tăng"
+      },
+      {
+        "name": "Hướng dẫn viên du lịch",
+        "skills": "Giao tiếp, Ngoại ngữ, Kiến thức văn hóa",
+        "salary": "10-25 triệu VNĐ/tháng",
+        "growth": "Tăng mạnh với ngành du lịch"
+      },
+      {
+        "name": "Y tá",
+        "skills": "Chăm sóc bệnh nhân, Kỹ năng y tế",
+        "salary": "10-15 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      }
+    ]
+  },
+  {
+    "group": "Enterprising",
+    "color": "#FF8A65",
+    "careers": [
+      {
+        "name": "Doanh nhân",
+        "skills": "Kỹ năng lãnh đạo, Đàm phán, Quản lý tài chính",
+        "salary": "Không giới hạn",
+        "growth": "Phụ thuộc vào ý tưởng kinh doanh"
+      },
+      {
+        "name": "Nhà môi giới chứng khoán",
+        "skills": "Phân tích tài chính, Giao tiếp, Đàm phán",
+        "salary": "20-50 triệu VNĐ/tháng",
+        "growth": "Cao trong lĩnh vực tài chính"
+      },
+      {
+        "name": "Chuyên gia quảng cáo",
+        "skills": "Tư duy sáng tạo, Kỹ năng tiếp thị",
+        "salary": "15-30 triệu VNĐ/tháng",
+        "growth": "Tăng mạnh với xu hướng marketing số"
+      },
+      {
+        "name": "Quản lý kinh doanh",
+        "skills": "Quản lý nhân sự, Kỹ năng lãnh đạo",
+        "salary": "25-50 triệu VNĐ/tháng",
+        "growth": "Rất cao"
+      },
+      {
+        "name": "Luật sư",
+        "skills": "Kiến thức pháp luật, Đàm phán, Phân tích",
+        "salary": "20-40 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      }
+    ]
+  },
+  {
+    "group": "Conventional",
+    "color": "#9575CD",
+    "careers": [
+      {
+        "name": "Kế toán viên",
+        "skills": "Tính toán, Quản lý tài chính",
+        "salary": "10-20 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      },
+      {
+        "name": "Nhân viên ngân hàng",
+        "skills": "Quản lý tài chính, Giao tiếp",
+        "salary": "15-30 triệu VNĐ/tháng",
+        "growth": "Cao trong lĩnh vực tài chính"
+      },
+      {
+        "name": "Quản trị viên hệ thống",
+        "skills": "Quản lý hệ thống CNTT, Giải quyết vấn đề",
+        "salary": "20-40 triệu VNĐ/tháng",
+        "growth": "Cao với nhu cầu chuyển đổi số"
+      },
+      {
+        "name": "Chuyên viên phân tích dữ liệu",
+        "skills": "Phân tích dữ liệu, Tư duy logic",
+        "salary": "25-50 triệu VNĐ/tháng",
+        "growth": "Rất cao"
+      },
+      {
+        "name": "Nhân viên hành chính",
+        "skills": "Quản lý thời gian, Sắp xếp hồ sơ",
+        "salary": "8-15 triệu VNĐ/tháng",
+        "growth": "Ổn định"
+      }
+    ]
+  }
+]

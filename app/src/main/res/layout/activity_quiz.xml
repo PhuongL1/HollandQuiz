@@ -1,0 +1,148 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"
+    tools:ignore="ExtraText">
+
+    <!-- Tiêu đề ứng dụng -->
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holland Quiz"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- CardView chứa câu hỏi -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@id/tvAppTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Câu hỏi sẽ hiển thị tại đây"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_regular"
+            android:lineSpacingExtra="4dp" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Container chứa các đáp án -->
+    <LinearLayout
+        android:id="@+id/answerContainer1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/cardQuestion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <!-- RadioGroup chứa các đáp án -->
+        <RadioGroup
+            android:id="@+id/answerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lựa chọn 1" />
+
+            <RadioButton
+                android:id="@+id/rbAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lựa chọn 2" />
+
+            <RadioButton
+                android:id="@+id/rbAnswer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lựa chọn 3" />
+
+            <RadioButton
+                android:id="@+id/rbAnswer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lựa chọn 4" />
+
+            <RadioButton
+                android:id="@+id/rbAnswer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lựa chọn 5" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- Nhóm chứa nút điều hướng -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Nút Quay lại -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Trờ về"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_regular" />
+
+        <!-- Nút Tiếp tục -->
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tiếp tục"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginHorizontal="8dp" />
+
+        <!-- Nút Hoàn thành -->
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="kết thúc"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppins_regular" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

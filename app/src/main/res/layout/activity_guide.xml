@@ -1,0 +1,56 @@
+<!-- File: res/layout/activity_guide.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvGuideTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Hướng Dẫn Cách Chơi Holland Quiz"
+        android:textColor="#F00909"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Guide Content -->
+    <ScrollView
+        android:id="@+id/scrollViewGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGuideTitle"
+        android:layout_marginTop="20dp"
+        tools:ignore="ExtraText">
+
+        <TextView
+            tools:ignore="MissingPrefix"
+            android:id="@+id/tvGuideContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:text="Holland Quiz là một trò chơi trắc nghiệm giúp bạn khám phá tính cách và định hướng nghề nghiệp dựa trên sở thích cá nhân. Mỗi câu hỏi sẽ đi kèm 5 lựa chọn, bạn hãy chọn câu trả lời phản ánh chính xác nhất mức độ phù hợp với bản thân.\n\nCác mức độ trả lời:\n\n0 - Hoàn toàn không đúng với bản thân.\n1 - Đúng một phần nhỏ.\n2 - Đúng một nửa.\n3 - Đúng đa số trường hợp.\n4 - Hoàn toàn đúng với bản thân.\n\nVí dụ: \Tôi có tính tự lập.\ Nếu bạn cảm thấy đa số trường hợp mình độc lập, hãy chọn 3.\nTrả lời lần lượt từng câu hỏi và nhấn nút \Tiếp tục\ để chuyển sang câu hỏi kế tiếp. Sau khi hoàn thành tất cả, bạn sẽ nhận được kết quả phân tích và gợi ý nghề nghiệp phù hợp." />
+
+    </ScrollView>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:text="Quay lại"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background" />
+
+</RelativeLayout>
